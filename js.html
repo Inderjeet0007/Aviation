@@ -1,0 +1,30 @@
+*/.myslides{
+		display:none;
+	} /*
+
+	
+	
+<div class="color-div1">
+<h3>Swissair Flight 111 - 229 dead:</h3>
+  <img class="mySlides img" src="C:\xampp\htdocs\Aviation\1.jpg" style="width:40%">
+   <img class="mySlides img" src="C:\xampp\htdocs\Aviation\2.jpg" style="width:40%">
+<p> <br>On 2 September 1998 Swissair flight 111 from New York to Geneva crashed into the ocean just off of Nova Scotia due to a rapidly spreading cockpit fire...<a href="A1.html">Read More</a></p>
+</div>
+
+</div>
+</div>
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";  
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}    
+    x[myIndex-1].style.display = "block";  
+    setTimeout(carousel, 2000); // Change image every 2 seconds
+}
