@@ -208,9 +208,9 @@ function myFunction() {
 				<ul class="list-unstyled text-center slides clearfix" id="tslider">
 					<li>
 						<blockquote>
-							<p>Integer pharetra tellus varius, dictum erat vel, maximus tellus. Sed vitae auctor ipsum. Aliquam luctus erat nec pulvinar vehicula donec congue tortor eget sem condimentum, ut tempor massa porttitor. Praesent tincidunt mi orci  in sollicitudin mi dapibus dapibus pellentesque habitant morbi tristique senectus et malesuada fames turpis egestas.</p>
-							<span class="author text-uppercase">John Doe</span>
-							<span class="job">IOS developer</span>
+							<p>The Website is very informative, provides proper details in every section and UI is very simple and easy to use !! The Airplanes section is designed nicely and different series of commercial aircrafts are mentioned one after the other.</p>
+							<span class="author text-uppercase">Rocky Jain</span>
+							<span class="job">iOS Developer</span>
 							
 						</blockquote>
 					</li>
