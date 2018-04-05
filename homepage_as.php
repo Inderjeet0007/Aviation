@@ -3,7 +3,7 @@
 <html lang="en-us">
 <head>
 	<title>Aviation.com</title>
-	
+
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0" />
 	<link rel="icon" type="image/png" href="img/images.png"/>
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.css"/>
@@ -12,7 +12,7 @@
 	<link rel="stylesheet" type="text/css" href="css/animate.css"/>
 	<link rel="stylesheet" type="text/css" href="css/main.css"/>
 
-	
+
 	<script type="text/javascript" src="js/jquery.js"></script>
 	<script type="text/javascript" src="js/ajaxchimp.js"></script>
 	<script type="text/javascript" src="js/scrollTo.js"></script>
@@ -72,7 +72,7 @@ border: 1px solid #fff;
 .nav .icon {
 display: none;
 }
-  
+
 @media screen and (max-width: 600px) {
   .nav a:not(:first-child) {display: none;}
   .nav a.icon {
@@ -96,7 +96,7 @@ display: none;
   }
 </style>
 <body>
-	
+
 	<!--  Header Section  -->
 	<header>
 		<div class="container">
@@ -108,16 +108,15 @@ display: none;
 					<a class="animated wow fadeInLeft list-unstyled" data-wow-delay=".0s" href="homepage.php"><strong>Home</strong></a>
 					<a class="animated wow fadeInLeft list-unstyled" data-wow-delay=".0s" href="aircraft.php">Aircrafts</a>
 					<a class="animated wow fadeInLeft list-unstyled" data-wow-delay=".1s" href="used_inst.php">Instruments</a>
-					<a class="animated wow fadeInLeft list-unstyled" data-wow-delay=".1s" href="tech_en.php">Tech Enhancements</a>
 					<a class="animated wow fadeInLeft list-unstyled" data-wow-delay=".1s" href="history.php">History</a>
-					<a class="animated wow fadeInLeft list-unstyled" data-wow-delay=".2s href="air_acci.php">Accidents Occured</a>
+					<a class="animated wow fadeInLeft list-unstyled" data-wow-delay=".2s" href="air_acci.php">Accidents Occured</a>
 					<a class="animated wow fadeInLeft list-unstyled" data-wow-delay="0s" href="AboutUs.php">About Us</a>
 					<a href="javascript:void(0);" style="font-size:30px;" class="icon" onclick="myFunction()">&#9776;</a>
-				<br><br> 
+				<br><br>
 				<a class="animated wow fadeInLeft active " data-wow-delay=".1s" href="https://accounts.google.com/logout" target="_blank"  onclick="window.location.href='http://localhost:8080/Aviation/homepage.php'">Sign out</a>
-				
+
 				<script>
-				  
+
 				  $(function(){
 					$('#logout').click(function(){
 						if(confirm('Are you sure to logout? You will be redirected to homepage back.')) {
@@ -127,11 +126,11 @@ display: none;
 						return false;
 						});
 					});
-				function 
+				function
 				</script>
-			
+
 			</div>
-			
+
 			<?php
 				echo '<script type="text/javascript">alert("Signed In Successfully !");</script>';
 			?>
@@ -140,11 +139,11 @@ display: none;
 					<li class="animated wow fadeInRight" data-wow-delay=".2s"><a href="https://www.facebook.com/aviationbloq/?ref=br_rs"><img src="img/facebook.png" alt="fb link" title=""></a></li>
 					<li class="animated wow fadeInRight" data-wow-delay=".1s"><a href="#"><img src="img/twitter.png" alt="twitter link" title=""></a></li>
 					<li class="animated wow fadeInRight" data-wow-delay="0s"><a href="#"><img src="img/google.png" alt="g link" title=""></a></li>
-					
+
 				</ul>
 			</div>
 
-			
+
 		</div>
 	</header>
 	<!--  End Header Section  -->
@@ -158,7 +157,7 @@ display: none;
 				<h3 class="text-uppercase  animated wow fadeInLeft">If so, Your at right place!! </h3>
 				<p class="text-uppercase animated wow fadeInLeft">"A MILE of a road will take you a mile but a mile of runway will take you anywhere."</p>
 
-			</div>			
+			</div>
 		</div>
 	</section>
 	<!--  End Hero Section  -->
@@ -200,7 +199,7 @@ display: none;
 		<div data-p="225.00">
 			<img data-u="image" src="img/a340.jpg" alt="Airbus 340"/>
 		</div>
-		
+
 
 	</div>
 	<!-- Bullet Navigator -->
@@ -231,7 +230,7 @@ display: none;
 	<!--  Testimonials Section  -->
 	<section class="testimonials animated wow fadeIn" id="testimonials" data-wow-duration="2s">
 		<div class="container">
-		
+
 				<h1>What People Got To Say About Our Blog!! </h1>
 			<div class="testimonials_list">
 				<ul class="list-unstyled text-center slides clearfix" id="tslider">
@@ -240,7 +239,7 @@ display: none;
 							<p>Integer pharetra tellus varius, dictum erat vel, maximus tellus. Sed vitae auctor ipsum. Aliquam luctus erat nec pulvinar vehicula donec congue tortor eget sem condimentum, ut tempor massa porttitor. Praesent tincidunt mi orci  in sollicitudin mi dapibus dapibus pellentesque habitant morbi tristique senectus et malesuada fames turpis egestas.</p>
 							<span class="author text-uppercase">John Doe</span>
 							<span class="job">IOS developer</span>
-							
+
 						</blockquote>
 					</li>
 
@@ -249,7 +248,7 @@ display: none;
 							<p>ABCD</p>
 							<span class="author text-uppercase">Alex Fredy</span>
 							<span class="job">android developer</span>
-							
+
 						</blockquote>
 					</li>
 
@@ -258,7 +257,7 @@ display: none;
 							<p>Integer pharetra tellus varius, dictum erat vel, maximus tellus. Sed vitae auctor ipsum. Aliquam luctus erat nec pulvinar vehicula donec congue tortor eget sem condimentum, ut tempor massa porttitor. Praesent tincidunt mi orci  in sollicitudin mi dapibus dapibus pellentesque habitant morbi tristique senectus et malesuada fames turpis egestas.</p>
 							<span class="author text-uppercase">Sara Aliba</span>
 							<span class="job">app Designer</span>
-							
+
 						</blockquote>
 					</li>
 				</ul>
@@ -270,15 +269,15 @@ display: none;
 		</div>
 	</section>
 	<!--  End Testimonials Section  -->
-	
+
 	<!--  Email Subscription Section  -->
 	<section class="sub_box">
-		<p class="cta_text animated wow fadeInDown">Join Our Group Of Bloggers and stay updated!</p>	
-		
+		<p class="cta_text animated wow fadeInDown">Join Our Group Of Bloggers and stay updated!</p>
+
 		<form action="" metohd="post" class="animated wow fadeIn" data-wow-duration="2s" id="submit_form">
 			<input type="email" id="mc-email" placeholder="Enter your email"/>
 			<button type="submit" id="mc_submit">
-				
+
 				<i class="icon"><a href='mail.php'></i></a>
 			</button>
 		</form>
@@ -287,10 +286,10 @@ display: none;
 		<div class="cta_text animated wow fadeInDown">
 			<br><p>Write a review Now !</p>
 		</div>
-		
+
 	</section>
 	<!--  End Email Subscription Section  -->
-	
+
 	<!--  Footer Section  -->
 	<footer>
 		<p class="cta_text animated wow fadeInDown">For your easy accessibility Our Site is supported on many platforms so that your experience is not interrupted!!</p>
@@ -305,7 +304,7 @@ display: none;
 				<a href=""><img src="img/windows_icon.png" alt="" title="WINDOWS OPTIMZED"></a>
 			</li>
 		</ul>
-		
+
 		<p class="cta_text animated wow fadeInDown">This site is best viewed in <strong>Google Chrome, Mozilla Firefox, Microsoft Edge</strong></p>
 		<p class="copyright animated wow fadeIn" data-wow-duration="2s">© 2018 <a href="" target="_blank"><strong>Aviation.com</strong></a>. All Rights Reserved</p>
 		<p class="copyright animated wow fadeIn" data-wow-duration="2s" >Created by Inderjeet and Nidhi</p>

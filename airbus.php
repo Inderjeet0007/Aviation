@@ -3,7 +3,7 @@
 <html lang="en-us">
 <head>
 	<title>Airbus Aircrafts</title>
-	
+
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0" />
 	<link rel="icon" type="image/png" href="img/images.png"/>
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.css"/>
@@ -12,7 +12,7 @@
 	<link rel="stylesheet" type="text/css" href="css/animate.css"/>
 	<link rel="stylesheet" type="text/css" href="css/main.css"/>
 
-	
+
 	<script type="text/javascript" src="js/jquery.js"></script>
 	<script type="text/javascript" src="js/ajaxchimp.js"></script>
 	<script type="text/javascript" src="js/scrollTo.js"></script>
@@ -30,7 +30,7 @@
 	}
 	.b{
 	font: italic 20px/30px Allan, serif;
-	
+
 	}
 	.ba{
 	font: italic bold 20px/30px Georgia, serif;
@@ -39,10 +39,10 @@
 		color: white;
 		background-color: grey;
 	}
-	.img {max-width:100%} 
-		
+	.img {max-width:100%}
+
 	.columns {
-	  
+
 	}
 	@media screen and (min-width: 1000px) {
 	  .columns,
@@ -124,52 +124,106 @@
 	 .first-article .article-body {
 		flex: 1;
 	  }
-	 
+
 	  .first-article .article-image {
 		height: 300px;
 		order: 2;
 		padding-top: 0;
 		width: 400px;
 	  }
-	 
+
 	  .main-column {
 		flex: 3;
 	  }
-	 
+
 	  .nested-column {
 		flex: 2;
 	  }
-	} 	
+	}
+
+	.nav a:hover {
+	  color: #ddd;
+	  color: black;
+	}
+
+	.nav {
+	  overflow: hidden;
+	  }
+
+	.nav a {
+	  float: left;
+	  display: block;
+	  color: #f2f2f2;
+	  text-align: center;
+	  padding: 14px 16px;
+	  text-decoration: none;
+	  font-size: 17px;
+	}
+	.nav .icon {
+	display: none;
+	}
+
+	@media screen and (max-width: 600px) {
+	  .nav a:not(:first-child) {display: none;}
+	  .nav a.icon {
+	    float: right;
+	    display: block;
+	  }
+	}
+	@media screen and (max-width: 600px) {
+	  .nav.responsive {position: relative;}
+	  .nav.responsive .icon {
+	    position: absolute;
+	    right: 0;
+	    top: 0;
+	  }
+	}
+	  .nav.responsive a {
+	    float: none;
+	    display: block;
+		background-color: grey;
+	    text-align: left;
+	  }
 </style>
 <body>
-	
+
 	<!--  Header Section  -->
 	<header>
 		<div class="container">
 			<div class="logo pull-left animated fadeInLeft">
 				<img src="img/Logo.jpg" height="80px" alt="WS LOGO" title="LOGO FOR AVIATION.COM">
 			</div>
-			
-			<nav class="pull-left">
-					<li class="animated wow fadeInLeft list-unstyled" data-wow-delay=".1s"><a href="homepage.php">Home</a></li>
-					<li class="animated wow fadeInLeft list-unstyled" data-wow-delay="0s"><a href="aircraft.php"><strong>Aircrafts</strong></a></li>
-					<li class="animated wow fadeInLeft list-unstyled" data-wow-delay=".1s"><a href="used_inst.php">Instruments</a></li>
-					<li class="animated wow fadeInLeft list-unstyled" data-wow-delay=".2s"><a href="tech_en.php">Tech Enhancements</a></li>
-					<li class="animated wow fadeInLeft list-unstyled" data-wow-delay=".1s"><a href="history.php">History</a></li>
-					<li class="animated wow fadeInLeft list-unstyled" data-wow-delay=".2s"><a href="air_acci.php">Accidents Occured</a></li>
-					<li class="animated wow fadeInLeft list-unstyled" data-wow-delay="0s"><a href="AboutUs.php">About Us</a></li>
-			</nav>
+			<br><br>
+			<div class="nav pull-left" id="AviationNav">
+					<a class="animated wow fadeInLeft list-unstyled" data-wow-delay=".0s" href="homepage.php">Home</a>
+					<a class="animated wow fadeInLeft list-unstyled" data-wow-delay=".0s" href="aircraft.php"><strong>Aircrafts</strong></a>
+					<a class="animated wow fadeInLeft list-unstyled" data-wow-delay=".1s" href="used_inst.php">Instruments</a>
+					<a class="animated wow fadeInLeft list-unstyled" data-wow-delay=".1s" href="history.php">History</a>
+					<a class="animated wow fadeInLeft list-unstyled" data-wow-delay=".2s" href="air_acci.php">Accidents Occured</a>
+					<a class="animated wow fadeInLeft list-unstyled" data-wow-delay="0s" href="AboutUs.php">About Us</a>
+					<a href="javascript:void(0);" style="font-size:30px;" class="icon" onclick="myFunction()">&#9776;</a>
+			</div>
+			<script>
+			function myFunction() {
+					var x = document.getElementById("AviationNav");
+					if (x.className === "nav") {
+							x.className += " responsive";
+					} else {
+							x.className = "nav";
+					}
+			}
+			</script>
 
 			<div class="social pull-right">
 				<ul class="list-unstyled">
 					<li class="animated wow fadeInRight" data-wow-delay=".2s"><a href="https://www.facebook.com/aviationbloq/?ref=br_rs"><img src="img/facebook.png" alt="fb link" title=""></a></li>
 					<li class="animated wow fadeInRight" data-wow-delay=".1s"><a href="#"><img src="img/twitter.png" alt="twitter link" title=""></a></li>
 					<li class="animated wow fadeInRight" data-wow-delay="0s"><a href="#"><img src="img/google.png" alt="g link" title=""></a></li>
-					
+
 				</ul>
 			</div>
 
-			
+
 		</div>
 	</header>
 	<!--  End Header Section  -->
@@ -185,7 +239,7 @@
 		<p class="article-content">
           The ACJ350 XWB – the latest addition to Airbus’ family of VIP widebodies – offers innovative technology such as wings that morph in-flight to produce the most efficient and cost-effective flight possible and a fuselage constructed from next-generation carbon composite materials. Naturally, it also delivers more space than its rival with which customers can design and install their ideal cabin. With a range of 20,000 km., Airbus’ ACJ350 XWB can carry 25 passengers in a typical seating configuration.<br><br>The A350 was originally conceived in 2004 as a pairing of the A330's fuselage with new aerodynamics features and engines. In 2006, Airbus redesigned the aircraft in response to criticism from several major prospective customers and renamed it the A350 XWB (extra wide body). </p>
 		</article>
-		
+
 		<article class="article">
 		  <figure class="article-image is-4by3">
 				<img src="img/A380_web.jpg" alt="A380">
@@ -211,7 +265,7 @@
 			 <h2 class="article-title"><a href="a321n.php">Airbus A321 NEO</a></h2>
 		  <p class="article-content">
 		 Airbus’ modern corporate jet product line begins with the Airbus ACJ320 Family, of which the ACJ321 is a member. These aircraft feature cabins that are the widest and tallest of any corporate jet – while having a similar external length and wingspan. The ACJ321, which is based on Airbus’ proven A321 jetliner, has an overall length of 44.51 metres and the ability to carry eight passengers in a typical VIP configuration.</p>
-		
+
 		</article>
 		<article class="article">
 			<figure class="article-image is-3by2">
@@ -245,7 +299,7 @@
 				<a href=""><img src="img/windows_icon.png" alt="" title="WINDOWS OPTIMZED"></a>
 			</li>
 		</ul>
-		
+
 		<p class="cta_text animated wow fadeInDown">This site is best viewed in <strong>Google Chrome, Mozilla Firefox, Microsoft Edge</strong></p>
 		<p class="copyright animated wow fadeIn" data-wow-duration="2s">© 2018 <a href="" target="_blank"><strong>Aviation.com</strong></a>. All Rights Reserved</p>
 		<p class="copyright animated wow fadeIn" data-wow-duration="2s" >Created by Inderjeet and Nidhi</p>

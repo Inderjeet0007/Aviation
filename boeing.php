@@ -3,7 +3,7 @@
 <html lang="en-us">
 <head>
 	<title>Boeing Aircrafts</title>
-	
+
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0" />
 	<link rel="icon" type="image/png" href="img/images.png"/>
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.css"/>
@@ -12,7 +12,7 @@
 	<link rel="stylesheet" type="text/css" href="css/animate.css"/>
 	<link rel="stylesheet" type="text/css" href="css/main.css"/>
 
-	
+
 	<script type="text/javascript" src="js/jquery.js"></script>
 	<script type="text/javascript" src="js/ajaxchimp.js"></script>
 	<script type="text/javascript" src="js/scrollTo.js"></script>
@@ -30,7 +30,7 @@
 	}
 	.b{
 	font: italic 20px/30px Allan, serif;
-	
+
 	}
 	.ba{
 	font: italic bold 20px/30px Georgia, serif;
@@ -39,10 +39,10 @@
 		color: white;
 		background-color: grey;
 	}
-	.img {max-width:100%} 
-		
+	.img {max-width:100%}
+
 	.columns {
-	  
+
 	}
 	@media screen and (min-width: 1000px) {
 	  .columns,
@@ -124,52 +124,106 @@
 	 .first-article .article-body {
 		flex: 1;
 	  }
-	 
+
 	  .first-article .article-image {
 		height: 300px;
 		order: 2;
 		padding-top: 0;
 		width: 400px;
 	  }
-	 
+
 	  .main-column {
 		flex: 3;
 	  }
-	 
+
 	  .nested-column {
 		flex: 2;
 	  }
-	} 	
+	}
+
+	.nav a:hover {
+	  color: #ddd;
+	  color: black;
+	}
+
+	.nav {
+	  overflow: hidden;
+	  }
+
+	.nav a {
+	  float: left;
+	  display: block;
+	  color: #f2f2f2;
+	  text-align: center;
+	  padding: 14px 16px;
+	  text-decoration: none;
+	  font-size: 17px;
+	}
+	.nav .icon {
+	display: none;
+	}
+
+	@media screen and (max-width: 600px) {
+	  .nav a:not(:first-child) {display: none;}
+	  .nav a.icon {
+	    float: right;
+	    display: block;
+	  }
+	}
+	@media screen and (max-width: 600px) {
+	  .nav.responsive {position: relative;}
+	  .nav.responsive .icon {
+	    position: absolute;
+	    right: 0;
+	    top: 0;
+	  }
+	}
+	  .nav.responsive a {
+	    float: none;
+	    display: block;
+		background-color: grey;
+	    text-align: left;
+	  }
 </style>
 <body>
-	
+
 	<!--  Header Section  -->
 	<header>
 		<div class="container">
 			<div class="logo pull-left animated fadeInLeft">
 				<img src="img/Logo.jpg" height="80px" alt="WS LOGO" title="LOGO FOR AVIATION.COM">
 			</div>
-			
-			<nav class="pull-left">
-					<li class="animated wow fadeInLeft list-unstyled" data-wow-delay=".1s"><a href="homepage.php">Home</a></li>
-					<li class="animated wow fadeInLeft list-unstyled" data-wow-delay="0s"><a href="aircraft.php"><strong>Aircrafts</strong></a></li>
-					<li class="animated wow fadeInLeft list-unstyled" data-wow-delay=".1s"><a href="used_inst.php">Instruments</a></li>
-					<li class="animated wow fadeInLeft list-unstyled" data-wow-delay=".2s"><a href="tech_en.php">Tech Enhancements</a></li>
-					<li class="animated wow fadeInLeft list-unstyled" data-wow-delay=".1s"><a href="history.php">History</a></li>
-					<li class="animated wow fadeInLeft list-unstyled" data-wow-delay=".2s"><a href="air_acci.php">Accidents Occured</a></li>
-					<li class="animated wow fadeInLeft list-unstyled" data-wow-delay="0s"><a href="AboutUs.php">About Us</a></li>
-			</nav>
+			<br><br>
+			<div class="nav pull-left" id="AviationNav">
+					<a class="animated wow fadeInLeft list-unstyled" data-wow-delay=".0s" href="homepage.php">Home</a>
+					<a class="animated wow fadeInLeft list-unstyled" data-wow-delay=".0s" href="aircraft.php"><strong>Aircrafts</strong></a>
+					<a class="animated wow fadeInLeft list-unstyled" data-wow-delay=".1s" href="used_inst.php">Instruments</a>
+					<a class="animated wow fadeInLeft list-unstyled" data-wow-delay=".1s" href="history.php">History</a>
+					<a class="animated wow fadeInLeft list-unstyled" data-wow-delay=".2s" href="air_acci.php">Accidents Occured</a>
+					<a class="animated wow fadeInLeft list-unstyled" data-wow-delay="0s" href="AboutUs.php">About Us</a>
+					<a href="javascript:void(0);" style="font-size:30px;" class="icon" onclick="myFunction()">&#9776;</a>
+			</div>
+			<script>
+			function myFunction() {
+			    var x = document.getElementById("AviationNav");
+			    if (x.className === "nav") {
+			        x.className += " responsive";
+			    } else {
+			        x.className = "nav";
+			    }
+			}
+			</script>
 
 			<div class="social pull-right">
 				<ul class="list-unstyled">
 					<li class="animated wow fadeInRight" data-wow-delay=".2s"><a href="https://www.facebook.com/aviationbloq/?ref=br_rs"><img src="img/facebook.png" alt="fb link" title=""></a></li>
 					<li class="animated wow fadeInRight" data-wow-delay=".1s"><a href="#"><img src="img/twitter.png" alt="twitter link" title=""></a></li>
 					<li class="animated wow fadeInRight" data-wow-delay="0s"><a href="#"><img src="img/google.png" alt="g link" title=""></a></li>
-					
+
 				</ul>
 			</div>
 
-			
+
 		</div>
 	</header>
 	<!--  End Header Section  -->
@@ -186,7 +240,7 @@
           The Boeing 747 is an American wide-body commercial jet airliner and cargo aircraft, often referred to by its original nickname, "Jumbo Jet".
         <br><br>The First Class and Business Class sections of the 747-8 enable airlines to offer passengers the most private and premium accommodations in the sky. So it's no surprise that on high-volume routes the 747-8 offers premium revenue potential. And with more than 400 seats available, this new 747 creates a unique opportunity to maximize the bottom-line potential of any high-volume route. It's premium value, delivered, for operators and passengers. That's a better way to fly.</a></p>
 		</article>
-		
+
 		<article class="article">
 		  <figure class="article-image is-4by3">
 				<img src="img/B777X.jpg" alt="Boeing 777X">
@@ -215,7 +269,7 @@
 			</figure>
 		  <p class="article-content">
 		 Boeing Business Jets brings the best of commercial aviation into the realm of private air travel, offering customers a wide range of Boeing products that can be uniquely customized for the private, business or governmental sectors. The robust characteristics of these airplanes also provide an excellent value proposition when outfitted for the private market; offering larger, more personalized space, unmatched reliability and worldwide support.</p>
-		
+
 		</article>
 		<article class="article">
 			<figure class="article-image is-3by2">
@@ -249,7 +303,7 @@
 				<a href=""><img src="img/windows_icon.png" alt="" title="WINDOWS OPTIMZED"></a>
 			</li>
 		</ul>
-		
+
 		<p class="cta_text animated wow fadeInDown">This site is best viewed in <strong>Google Chrome, Mozilla Firefox, Microsoft Edge</strong></p>
 		<p class="copyright animated wow fadeIn" data-wow-duration="2s">© 2018 <a href="" target="_blank"><strong>Aviation.com</strong></a>. All Rights Reserved</p>
 		<p class="copyright animated wow fadeIn" data-wow-duration="2s" >Created by Inderjeet and Nidhi</p>
