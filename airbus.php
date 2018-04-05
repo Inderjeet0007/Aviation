@@ -254,7 +254,7 @@
 		  <figure class="article-image is-3by2">
 				<img src="img/a340_web.jpg" alt="Airbus A340">
 			</figure>
-			 <h2 class="article-title"><a href="a340.php">Airbus A340</a></h2>
+			 <h2 class="article-title"><a href="airbus340.php">Airbus A340</a></h2>
 		  <p class="article-content">
 		 Based on the A340 jetliner, Airbus ACJ340 is part of the company’s full family of VIP widebodies – which also includes the ACJ330, ACJ350 XWB and ACJ380. With the ability to carry even more passengers, the additional size of these aircraft also allows further options in terms of both features and comfort. The aircraft’s range is set at 18,300 km., with the ability to carry 25 passengers in a typical VIP configuration.</p>
 		</article>
@@ -262,7 +262,7 @@
 		  <figure class="article-image is-3by2">
 				<img src="img/A321.jpg" alt="A321">
 			</figure>
-			 <h2 class="article-title"><a href="a321n.php">Airbus A321 NEO</a></h2>
+			 <h2 class="article-title"><a href="airbus321n.php">Airbus A321 NEO</a></h2>
 		  <p class="article-content">
 		 Airbus’ modern corporate jet product line begins with the Airbus ACJ320 Family, of which the ACJ321 is a member. These aircraft feature cabins that are the widest and tallest of any corporate jet – while having a similar external length and wingspan. The ACJ321, which is based on Airbus’ proven A321 jetliner, has an overall length of 44.51 metres and the ability to carry eight passengers in a typical VIP configuration.</p>
 
@@ -271,7 +271,7 @@
 			<figure class="article-image is-3by2">
 				<img src="img/a320_web.jpg" alt="A320">
 			</figure>
-			 <h2 class="article-title"><a href="a320.php">Airbus A320</a></h2>
+			 <h2 class="article-title"><a href="airbus320.php">Airbus A320</a></h2>
 			<p class="article-content">
 				Airbus’ ACJ320 – one of two corporate jets based on the best-selling A320neo Family, along with the AJC319neo – is around twice as wide as traditional high-end business jets, with a similar external length and wingspan. It is available with two of the industry’s latest-generation engines: CFM International’s LEAP-1A and Pratt & Whitney’s PW1100G, both of which offer further enhancements in range and efficiency.</p>
 		</article>
@@ -279,7 +279,7 @@
 			<figure class="article-image is-3by2">
 				<img src="img/beluga1.jpg" alt="Airbus Beluga">
 			</figure>
-			 <h2 class="article-title"><a href="boeing787.php">Airbus Beluga</a></h2>
+			 <h2 class="article-title"><a href="airbusB.php">Airbus Beluga</a></h2>
 			<p class="article-content">
 				Featuring one of the most voluminous cargo holds of any civil or military aircraft flying today, the Airbus Beluga offers a unique way to transport oversized air cargo. Also known as A300-600ST Super Transporter, the company’s five existing Belugas play a key role in keeping its production and assembly network operating at full capacity, with the fleet’s overall pace of operations – managed by the Airbus Transport International (ATI) subsidiary – growing to support production ramp-ups.</p>
 		</article>
