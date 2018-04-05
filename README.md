@@ -6,3 +6,17 @@ At Aviation.com, our mission is to entertain and educate the world on all matter
 We love aviation. We want to show you why.
 
 Our team outperforms as a worldwide aerospace news, photo, resource and consulting organization for aviation enthusiasts, industry professionals and news media, alike. We specialize in publishing breaking news, insightful expert commentary and analysis, and travel and weather updates. We also share stellar photography, covering all that happens, not only in the world of commercial aviation, but the entire aerospace industry, including the general aviation, military and space sectors.
+
+# Contributors
+
+1> Inderjeet Saluja
+
+2> Nidhi Mishra
+
+# Tech Used
+
+1> HTML
+
+2> PHP
+
+3> JAVASCRIPT 
