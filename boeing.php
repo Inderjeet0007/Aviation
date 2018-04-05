@@ -283,7 +283,7 @@
 			<figure class="article-image is-3by2">
 				<img src="img/B767.jpg" alt="Boeing 767">
 			</figure>
-			 <h2 class="article-title"><a href="boeing787.php">Boeing 767 Freighter</a></h2>
+			 <h2 class="article-title"><a href="boeing767F.php">Boeing 767 Freighter</a></h2>
 			<p class="article-content">
 				Cargo operators around the world keep the global 767 Freighter fleet busy, using each airplane an average of 10 hours a day. The 100 freighters delivered so far have accumulated more than 2 million flight hours combined since the introduction of the model.</p>
 		</article>

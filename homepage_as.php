@@ -12,7 +12,7 @@
 	<link rel="stylesheet" type="text/css" href="css/animate.css"/>
 	<link rel="stylesheet" type="text/css" href="css/main.css"/>
 
-
+	<script type="text/javascript" src="ckeditor.js"></script>
 	<script type="text/javascript" src="js/jquery.js"></script>
 	<script type="text/javascript" src="js/ajaxchimp.js"></script>
 	<script type="text/javascript" src="js/scrollTo.js"></script>
@@ -21,6 +21,7 @@
 	<script type="text/javascript" src="js/parallax.js"></script>
 	<script type="text/javascript" src="js/nicescroll.js"></script>
 	<script type="text/javascript" src="js/main.js"></script>
+
 </head>
 <style>
 input.MyButton {
@@ -115,21 +116,7 @@ display: none;
 				<br><br>
 				<a class="animated wow fadeInLeft active " data-wow-delay=".1s" href="https://accounts.google.com/logout" target="_blank"  onclick="window.location.href='http://localhost:8080/Aviation/homepage.php'">Sign out</a>
 
-				<script>
-
-				  $(function(){
-					$('#logout').click(function(){
-						if(confirm('Are you sure to logout? You will be redirected to homepage back.')) {
-							return true;
-						}
-
-						return false;
-						});
-					});
-				function
-				</script>
-
-			</div>
+		</div>
 
 			<?php
 				echo '<script type="text/javascript">alert("Signed In Successfully !");</script>';
@@ -285,7 +272,28 @@ display: none;
 		<div class="message" id="success_msg">Thank You For Your Subscription.</div>
 		<div class="cta_text animated wow fadeInDown">
 			<br><p>Write a review Now !</p>
+		<form method="POST">
+			<div>
+				<textarea rows="4" cols="50" id="Content" name="Content" style="background-color: black">Enter Your Review Here.......</textarea>
+				<script type="text/javascript">
+					CKEDITOR.replace( 'Content' );
+				</script>
+				<input type="submit" onclick="submit()" value="submit" name="submit" ></input>
+			</div>
+		</form>
 		</div>
+		<script>
+			$(function(){
+			$('#submit').click(submit(){
+				if(confirm('Do u wanna submit your review ?')) {
+
+					return true;
+				}
+
+				return false;
+				});
+			});
+		</script>
 
 	</section>
 	<!--  End Email Subscription Section  -->

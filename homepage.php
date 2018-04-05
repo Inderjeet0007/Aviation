@@ -75,6 +75,9 @@ display: none;
 	background-color: grey;
     text-align: left;
   }
+	a:link {
+	    text-decoration: none;
+	}
 </style>
 <body>
 
@@ -255,7 +258,7 @@ function myFunction() {
 		<div class="message" id="error_msg">Please Enter A Valid Email.</div>
 		<div class="message" id="success_msg">Thank You For Your Subscription.</div>
 		<div class="cta_text animated wow fadeInDown">
-			<br><p>Wanna write a review ?? then,<a href='Login/index.php'>Login</a>Now !</p>
+			<br><p>Wanna write a review ?? then,<a href='Login/index.php'> Login </a>Now !</p>
 		</div>
 
 	</section>
