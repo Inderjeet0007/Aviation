@@ -1,0 +1,71 @@
+<style media="screen">
+
+.active{
+  padding: 5px 10px;
+  color: #43b779;
+  font-family:"open_regular", Helvetica, Arial, sans-serif;
+  font-size: 36px;
+  text-align: center;
+}
+
+.nav a:hover {
+  color: #ddd;
+  color: black;
+}
+
+.nav {
+  overflow: hidden;
+  }
+
+.nav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+.nav .icon {
+display: none;
+}
+</style>
+
+<header>
+  <div class="container" style="background-color: transparent !important">
+    <div class="logo pull-left animated fadeInLeft">
+      <img src="img/Logo.jpg" height="80px" alt="WS LOGO" title="LOGO FOR AVIATION.COM">
+    </div>
+    <br><br>
+    <div class="nav pull-left" id="AviationNav">
+        <a class="animated wow fadeInLeft list-unstyled" data-wow-delay=".0s" href="homepage.php">Home</a>
+        <a class="animated wow fadeInLeft list-unstyled" data-wow-delay=".0s" href="aircraft.php">Aircrafts</a>
+        <a class="animated wow fadeInLeft list-unstyled" data-wow-delay=".1s" href="used_inst.php">Instruments</a>
+        <a class="animated wow fadeInLeft list-unstyled" data-wow-delay=".1s" href="history.php">History</a>
+        <a class="animated wow fadeInLeft list-unstyled" data-wow-delay=".2s" href="air_acci.php">Accidents Occured</a>
+        <a class="animated wow fadeInLeft list-unstyled" data-wow-delay="0s" href="AboutUs.php">About Us</a>
+        <a href="javascript:void(0);" style="font-size:30px;" class="icon" onclick="myFunction()">&#9776;</a>
+    </div>
+
+<script>
+function myFunction() {
+  var x = document.getElementById("AviationNav");
+  if (x.className === "nav") {
+      x.className += " responsive";
+  } else {
+      x.className = "nav";
+  }
+}
+</script>
+    <div class="social pull-right">
+      <ul class="list-unstyled">
+        <li class="animated wow fadeInRight" data-wow-delay=".2s"><a href="https://www.facebook.com/aviationbloq/?ref=br_rs"><img src="img/facebook.png" alt="fb link" title=""></a></li>
+        <li class="animated wow fadeInRight" data-wow-delay=".1s"><a href="#"><img src="img/twitter.png" alt="twitter link" title=""></a></li>
+        <li class="animated wow fadeInRight" data-wow-delay="0s"><a href="#"><img src="img/google.png" alt="g link" title=""></a></li>
+
+      </ul>
+    </div>
+
+
+  </div>
+</header>
