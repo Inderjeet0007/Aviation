@@ -50,7 +50,7 @@ $login_url = 'https://accounts.google.com/o/oauth2/v2/auth?scope=https://www.goo
 							<i class="fa fa-google"></i>
 						</a><br>
 						<br><h3>OR</h3>
-						<br><a href="http://localhost/Aviation/admin/admin.php"><h2>Admin Login</h2></a></div>
+						<br><a href="http://localhost/Aviation/admin/admin.php"><h2>ADMIN LOGIN</h2></a></div>
 					</div>
 					</div>
 				</form>
