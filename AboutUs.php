@@ -11,8 +11,8 @@
 	<link rel="stylesheet" type="text/css" href="css/owl.carousel.css"/>
 	<link rel="stylesheet" type="text/css" href="css/animate.css"/>
 	<link rel="stylesheet" type="text/css" href="css/main.css"/>
-
-
+	<link href="css/elements.css" rel="stylesheet">
+	<script src="js/my_js.js"></script>
 	<script type="text/javascript" src="js/jquery.js"></script>
 	<script type="text/javascript" src="js/ajaxchimp.js"></script>
 	<script type="text/javascript" src="js/scrollTo.js"></script>
@@ -186,9 +186,28 @@
 				</div>
 			</div>
 		</div>	<br>
+		<div id="abc" style="overflow:hidden;">
+		<!-- Popup Div Starts Here -->
+		<div id="popupContact">
+			<!-- Contact Us Form -->
+			<form action="http://localhost/Aviation/usermail/next2.php" id="form" method="post" name="form">
+				<img id="close" src="images/3.png" onclick ="div_hide()">
+				<h2>Contact Us</h2>
+				<hr>
+				<input id="name" name="name" placeholder="Name" type="text">
+				<input id="phone" name="phone" placeholder="Phone" type="text">
+				<input id="email" name="email" placeholder="Email" type="text">
+				<textarea id="msg" name="textarea" placeholder="Message"></textarea>
+				<a href="javascript:%20check_empty()" type="submit" id="submit">Send</a>
+			</form>
+		</div>
+		<!-- Popup Div Ends Here -->
+		</div>
+		<h2 class="b"> Queries ?? <button id="popup" onclick="div_show()">Contact Us</button></h2>
 		<div class="d bz">
 			<p class=" animated wow fadeInDown "><strong>**Disclaimer:</strong>THE INFORMATION PROVIDED ON THIS SITE IS INTENDED FOR THE SOLE PURPOSE OF ASSISTING AVIATION ENTHUSIASTS AND PHOTOGRAPHERS.Through your continued use of this site, you agree that Aviation.com assumes no liability nor responsibility for any individual’s actions or conduct.</p>
 		</div>
+
 	</section>
 	<!--  Footer Section  -->
 	<footer>
